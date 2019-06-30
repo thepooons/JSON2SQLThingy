@@ -12,6 +12,8 @@ def show(table, roll_number_demanded):
     try:
         from dataHandler2 import table
         matchRow = [i for i in table if i['roll'] == roll_number_demanded]
+        if (len(matchRow) == 0):
+            return jsonify(table)
         result = jsonify(matchRow)
         name = request.get_json(force=True).get('name')
         classBoi = request.get_json(force=True).get('class')

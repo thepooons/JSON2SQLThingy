@@ -1,11 +1,11 @@
 from flask import Flask
 from flask import request, jsonify, Response
 from flask import Blueprint
-from JSONCommunication.showTable import GET_blueprint
-from JSONCommunication.searchData import GET_blueprint2
-from JSONCommunication.addData import POST_blueprint
-from JSONCommunication.updateData import PUT_blueprint
-from JSONCommunication.deleteData import DELETE_blueprint
+from APIs.showTable import GET_blueprint
+from APIs.searchData import GET_blueprint2
+from APIs.addData import POST_blueprint
+from APIs.updateData import PUT_blueprint
+from APIs.deleteData import DELETE_blueprint
 app = Flask(__name__)
 
 app.register_blueprint(GET_blueprint)

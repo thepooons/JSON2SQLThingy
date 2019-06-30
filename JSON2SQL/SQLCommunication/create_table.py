@@ -4,9 +4,7 @@ import sys
 sys.path.append(".")
 sys.path.append("..")
 # Add the ptdraft folder path to the sys.path list
-from dataHandler import DataFrameReturner
-
-df = DataFrameReturner()
+from dataHandler2 import df
 
 def Create_table(df):
     engine  = create_engine('mysql://root:hello123@localhost/jsondatastore')
