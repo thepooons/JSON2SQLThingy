@@ -1,0 +1,37 @@
+[
+  {
+    "roll": "roll_number",
+    "name": "name",
+    "class": "classBoi"
+  },
+  {
+    "roll": 24,
+    "name": "joma tech boi",
+    "class": 3000
+  },
+  {
+    "roll": 245,
+    "name": "gnp",
+    "class": 3946499
+  },
+  {
+    "roll": 245,
+    "name": "joma tech boi",
+    "class": 3000
+  },
+  {
+    "roll": 245,
+    "name": "joma tech boi",
+    "class": 3000
+  },
+  {
+    "roll": 24,
+    "name": "joma tech boi",
+    "class": 3000
+  },
+  {
+    "roll": 2,
+    "name": "gnp",
+    "class": 3946499
+  }
+]
